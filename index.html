@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <main class="calc">
+      <form id="form" class="calc__box">
+        <div class="calc__item">
+          <label class="calc__label" for="day">Day</label>
+          <input class="calc__input" type="text" name="day" id="day" placeholder="DD">
+          <p class="calc__input-error"></p>
+        </div>
+        <div class="calc__item">
+          <label class="calc__label" for="month">Month</label>
+          <input class="calc__input" type="text" id="month" name="month" placeholder="MM">
+          <p class="calc__input-error"></p>
+
+        </div>
+        <div class="calc__item">
+          <label class="calc__label" for="year">Year</label>
+          <input class="calc__input" type="text " name="year" id="year" placeholder="YYYY">
+          <p class="calc__input-error"></p>
+        </div>
+        <button class="calc__btn" type="submit"></button>
+      </form>
+      <div class="result">
+        <p class="result__item"><span class="result__text">--</span> Years</p>
+        <p class="result__item"><span class="result__text">--</span> Month</p>
+        <p class="result__item"><span class="result__text">--</span> days</p>
+      </div>
+    </main>
+  <div class="challenge">
+    Challenge by <a class="challenge__link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class="challenge__link" href="#">TanKleSs</a>.
+  </div>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
